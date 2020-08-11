@@ -6,12 +6,10 @@
 # arg 3 : path to b-values
 # arg 4 : path to b-vectors
 
-import sys
 from os import path
 import numpy as np
 from astropy import units
 import nibabel as nib
-from scipy import ndimage
 from dipy.core import gradients
 from dipy.reconst import mapmri
 
@@ -23,7 +21,7 @@ def compute_RTOP(dwi_, mask_, bvals_, bvecs_):
         bvals = np.loadtxt(bvals_) * units.s / units.mm**2
         bvecs = np.loadtxt(bvecs_)
     else:
-        print("One of the files do not exist, exit.")
+        print("One of the files does not exist, exit.")
         exit()
 
     dwi_data = dwi.get_data()
