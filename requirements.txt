@@ -1,0 +1,29 @@
+astropy==4.0.1.post1
+certifi==2020.6.20
+cvxopt==1.2.0
+cycler==0.10.0
+dipy==1.1.0
+h5py @ file:///home/conda/feedstock_root/build_artifacts/h5py_1595110162077/work
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1593624380152/work
+kiwisolver==1.2.0
+matplotlib @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-base_1595353122123/work
+mkl-fft==1.1.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+mock @ file:///home/conda/feedstock_root/build_artifacts/mock_1588618847833/work
+nibabel @ file:///home/conda/feedstock_root/build_artifacts/nibabel_1593541214053/work
+nistats==0.0.1b0
+numexpr==2.7.1
+numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1596233707986/work
+olefile==0.46
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1589925210001/work
+Pillow @ file:///home/conda/feedstock_root/build_artifacts/pillow_1594213010297/work
+pydicom @ file:///home/conda/feedstock_root/build_artifacts/pydicom_1590767348156/work
+pyparsing==2.4.7
+python-dateutil==2.8.1
+scikit-learn @ file:///tmp/build/80754af9/scikit-learn_1592502882224/work
+scipy @ file:///tmp/build/80754af9/scipy_1592930510235/work
+six==1.15.0
+tables==3.6.1
+threadpoolctl @ file:///tmp/tmp79xdzxkt/threadpoolctl-2.1.0-py3-none-any.whl
+tornado==6.0.4
