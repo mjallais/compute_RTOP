@@ -1,5 +1,5 @@
 import argparse
-from compute_rtop.RTOP import compute_RTOP
+from compute_RTOP.RTOP import compute_RTOP
 
 parser = argparse.ArgumentParser()
 parser.add_argument("dwi", type=str, help="Path to the diffusion image.")
