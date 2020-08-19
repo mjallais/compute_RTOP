@@ -2,10 +2,10 @@ from setuptools import setup
 
 setup(name='compute_rtop',
       version='0.1',
-      description='',
+      description='Compute RTOP given a dMRI image and a mask',
       url='',
-      author='',
-      author_email='',
+      author='Maëliss Jallais',
+      author_email='maeliss.jallais@inria.fr',
       license='MIT',
       packages=['compute_rtop'],
       install_requires=[
